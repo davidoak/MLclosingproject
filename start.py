@@ -11,7 +11,6 @@ from azure.storage.blob import ContentSettings
 import os, glob
 import time
 
-
 block_blob_service = BlockBlobService(account_name = 'YOUR_ACCOUNT_NAME',
 				      account_key  = 'YOUR_ACCOUNT_KEY')
 
