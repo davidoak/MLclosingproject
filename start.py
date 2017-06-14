@@ -12,8 +12,8 @@ import os, glob
 import time
 
 
-block_blob_service = BlockBlobService(account_name = '13thclosingproject',
-				      account_key  = 'Ol2bfKtBH5nkw1kxQw6X3IYBe0ziHQvaP4i82ZDUoQDtq4pexMOperzsn4DYv1DwBA6oSttAuGrjq4svcOIjDg==')
+block_blob_service = BlockBlobService(account_name = 'YOUR_ACCOUNT_NAME',
+				      account_key  = 'YOUR_ACCOUNT_KEY')
 
 i = 0
 ML_count = 0
